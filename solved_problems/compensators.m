@@ -52,8 +52,8 @@ Pd = exp(-Pc*T)
 Gi(z) = (1-Pd)/(1-Zd) * (z-Zd)/(z-Pd);
 pretty(Gi)
 
-%% 3.5
 clc
+%% 3.5
 clear
 
 s = tf('s');
